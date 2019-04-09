@@ -17,4 +17,10 @@
         android:title="@string/menuDonate"
         app:showAsAction="never"
         android:onClick="donate"/>
+    <item
+        android:id="@+id/menuReset"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menuReset"
+        android:onClick="reset"/>
 </menu>
